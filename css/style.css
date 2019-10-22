@@ -176,4 +176,13 @@ button:hover {
     opacity: 1;
     transform: scale(1.12);
 }
+
+.operation, .clear {
+    background-color: var(--key-operation-color);
+}
+  
+.highlighted_background {
+    background-color: var(--main-txt-color);
+    color: var(--dark-violet);
+}
   
