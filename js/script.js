@@ -8,3 +8,9 @@ const display = document.querySelector('.display'),
 integerButtons.forEach(button => button.addEventListener(('click'), (event) => {
   console.log(event.target.innerHTML);
 }));
+
+
+operationsButtons.forEach(button => button.addEventListener(('click'), (event) => {
+    console.log(event.target.innerHTML);
+    
+  }));
