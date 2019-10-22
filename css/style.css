@@ -157,6 +157,8 @@ button {
     -webkit-box-shadow: 0px 8px 0px 0px var(--main-button-shadow);
     -moz-box-shadow: 0px 8px 0px 0px var(--main-button-shadow);
     box-shadow: 0px 8px 0px 0px var(--main-button-shadow); 
+    opacity: 0.85;
+    transition: all .17s ease-in-out;
 }
 
 button:focus {
@@ -168,5 +170,10 @@ button:active {
   -moz-box-shadow: 0px 2px 0px 0px var(--main-button-shadow);
   box-shadow: 0px 2px 0px 0px var(--main-button-shadow);
   transform: translateY(4px);
+}
+
+button:hover {
+    opacity: 1;
+    transform: scale(1.12);
 }
   
