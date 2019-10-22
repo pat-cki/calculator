@@ -95,4 +95,15 @@ select {
     --dark-violet: rgb(65, 2, 65);
     --display-innershawdow: rgb(65, 2, 65, 0.5);
   }
-  
+
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.5em;;
+  background-color: var(--main-bg-color) ;
+}
+
+.calculator_container {
+    margin: 0 auto;
+    width: 50%;
+}
