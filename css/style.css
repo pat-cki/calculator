@@ -185,4 +185,17 @@ button:hover {
     background-color: var(--main-txt-color);
     color: var(--dark-violet);
 }
+
+@media screen and (max-width: 798px) {
+    button {
+      opacity: 1;
+    }
   
+    .calculator_container {
+        margin: 0 auto;
+        width: 95%;
+        -webkit-box-shadow: 10px 10px 0px 0px var(--dark-violet);
+        -moz-box-shadow: 10px 10px 0px 0px var(--dark-violet);
+        box-shadow: 10px 10px 0px 0px var(--dark-violet);
+    }
+}
