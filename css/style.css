@@ -123,4 +123,20 @@ body {
     box-shadow: inset 0px 8px 0px 0px var(--display-innershawdow);
     -webkit-box-shadow: inset 0px 8px 0px 0px var(--display-innershawdow);
     -moz-box-shadow: inset 0px 8px 0px 0px var(--display-innershawdow);
+    position: relative;
+}
+
+.display {
+    position: absolute;
+    top: 1.2em;
+    right: 0.8em;
+    font-size: 1.1em;
+    color: var(--dark-violet);
+}
+
+.keys {
+    margin: 2em 0 3em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3%; 
 }
