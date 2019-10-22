@@ -31,3 +31,10 @@ decimalButton.addEventListener('click', (event) => {
 resetButton.addEventListener('click', (event) => {
     console.log(event.target.innerHTML);
 });
+
+
+function displayUpdate() {
+    display.innerHTML = displayedValue;
+}
+
+displayUpdate();
