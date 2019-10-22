@@ -5,7 +5,7 @@ const display = document.querySelector('.display'),
   decimalButton = document.querySelector('.decimal'),
   resetButton = document.querySelector('.clear');
 
-//CALCUCLATOR VARIABLES
+//CALCULATOR VARIABLES
 let displayedValue = 0,
   firstValue = null,
   operator = null,
