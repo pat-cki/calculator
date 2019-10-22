@@ -190,6 +190,10 @@ button:hover {
     button {
       opacity: 1;
     }
+
+    button:hover {
+        transform: none;
+      }
   
     .calculator_container {
         margin: 0 auto;
