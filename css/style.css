@@ -141,7 +141,7 @@ body {
     grid-gap: 3%; 
 }
 
-.full {
+.full_width {
     grid-column-start: 1;
     grid-column-end:   5;
 }
