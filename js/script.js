@@ -5,12 +5,24 @@ const display = document.querySelector('.display'),
   decimalButton = document.querySelector('.decimal'),
   resetButton = document.querySelector('.clear');
 
+// INPUT INTEGER FUNCTIONALITY
 integerButtons.forEach(button => button.addEventListener(('click'), (event) => {
   console.log(event.target.innerHTML);
 }));
 
-
+// OPERATIONS FUNCTIONALITY
 operationsButtons.forEach(button => button.addEventListener(('click'), (event) => {
     console.log(event.target.innerHTML);
-    
-  }));
+}));
+
+
+// DECIMAL FUNCTIONALITY
+decimalButton.addEventListener('click', (event) => {
+    console.log(event.target.innerHTML);
+});
+
+
+// RESET FUNCTIONALITY
+resetButton.addEventListener('click', (event) => {
+    console.log(event.target.innerHTML);
+});
