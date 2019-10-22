@@ -1,1 +1,1 @@
-### Java Script Calculator for FAC precourse 🧮
+## JS Calculator for FAC precourse 🧮
