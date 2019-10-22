@@ -83,6 +83,16 @@ select {
 }
 
 /* PROJECT STYLES START BELOW */
-h1 {
-    color: red; 
-}
+/* Colour palette */
+:root {
+    --main-bg-color: rgba(102, 19, 127, 1);
+    --main-calculator-color: rgb(125, 25, 155);
+    --main-display-color: rgb(255, 255, 255);
+    --key-button-color:  rgba(136, 60, 216, 1);
+    --key-operation-color: rgb(186, 133, 242);
+    --main-txt-color: rgba(255, 204, 0, 1);
+    --main-button-shadow:  rgba(92,0,92,1);
+    --dark-violet: rgb(65, 2, 65);
+    --display-innershawdow: rgb(65, 2, 65, 0.5);
+  }
+  
