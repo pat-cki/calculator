@@ -42,11 +42,17 @@ function addDecimal(dot){
 }
 
 // RESET FUNCTIONALITY
-resetButton.addEventListener('click', (event) => {
-    console.log(event.target.innerHTML);
-});
+resetButton.addEventListener('click', clearAll);
 
+function clearAll(){
+  displayedValue = 0;
+  firstValue = null;
+  waitingForNext = false;
+  operator = null;
+  displayUpdate();
+}
 
+// UPDATE DISPLAY FUNCTIONALITY
 function displayUpdate() {
     display.innerHTML = displayedValue;
 }
