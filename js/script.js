@@ -28,13 +28,18 @@ function inputInteger(int){
 
 // OPERATIONS FUNCTIONALITY
 operationsButtons.forEach(button => button.addEventListener(('click'), (event) => {
-    console.log(event.target.innerHTML);
+  console.log(event.target.innerHTML);
 }));
 
 // DECIMAL FUNCTIONALITY
 decimalButton.addEventListener('click', (event) => {
-    console.log(event.target.innerHTML);
+  addDecimal(event.target.innerHTML);
+  displayUpdate();
 });
+
+function addDecimal(dot){
+  displayedValue += dot;
+}
 
 // RESET FUNCTIONALITY
 resetButton.addEventListener('click', (event) => {
