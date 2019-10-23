@@ -14,8 +14,17 @@ let displayedValue = 0,
 
 // INPUT INTEGER FUNCTIONALITY
 integerButtons.forEach(button => button.addEventListener(('click'), (event) => {
-  console.log(event.target.innerHTML);
+  inputInteger(event.target.innerHTML);
 }));
+
+function inputInteger(int){
+  if (displayedValue == '0') {
+    displayedValue = int;
+  } else { 
+    displayedValue = displayedValue + int;
+  };
+  displayUpdate();
+}
 
 // OPERATIONS FUNCTIONALITY
 operationsButtons.forEach(button => button.addEventListener(('click'), (event) => {
