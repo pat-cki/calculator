@@ -84,7 +84,10 @@ decimalButton.addEventListener("click", event => {
 });
 
 function addDecimal(dot) {
-  displayedValue += dot;
+  if (waitingForNext === true) return;
+  if (!displayedValue.includes(dot)) {
+    displayedValue += dot;
+  }
 }
 
 // RESET FUNCTIONALITY
