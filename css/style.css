@@ -58,6 +58,10 @@ body {
   grid-gap: 3%;
 }
 
+.alignment {
+  padding-top: 0.6em;
+}
+
 .full_width {
   grid-column-start: 1;
   grid-column-end: 5;
